@@ -1,0 +1,84 @@
+.hero{
+    height: 80vh;
+    display: flex;
+    padding-left: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_text{
+    width: 500px;
+}
+
+.hero_text h3{
+    font-size: 30px;
+}
+
+.hero_text h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 15px 0 30px 0;
+}
+
+.hero_text h1 span{
+    color: #FF4D30;
+}
+
+.hero_text p{
+    color: #a1a1a1;
+    font-size: 18px;
+}
+
+.hero_btn{
+    display: flex;
+}
+
+.book_btn, .learn_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    height: 60px;
+    width: 180px;
+    margin: 40px 20px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.book_btn{
+    background-color: #FF4D30;
+    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+    transition: all 0.3s;
+}
+
+.book_btn:hover {
+    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
+    background-color: #fa4226;
+}
+
+.learn_btn{
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.learn_btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+}
+
+.car_img{
+    position: relative;
+    right: 100px;
+}
+
+.bg_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
