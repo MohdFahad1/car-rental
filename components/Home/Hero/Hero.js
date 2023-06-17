@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Hero.module.css';
 import Image from 'next/image';
-import car from '../../public/hero-car.png';
-import bg from '../../public/hero-bg.png';
+import car from '../../../public/hero-car.png';
+import bg from '../../../public/hero-bg.png';
 import { FaCheckCircle, FaChevronRight } from "react-icons/fa";
 
 const Hero = () => {
