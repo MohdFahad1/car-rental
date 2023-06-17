@@ -1,0 +1,38 @@
+.banner{
+    background-color: #2D2D2D;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.banner h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.banner h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.banner span{
+    color: #FF4D30;
+}
+
+@media (max-width:920px){
+    .banner h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:468px){
+    .banner h1{
+        font-size: 50px;
+    }
+    .banner h3{
+        font-size: 20px;
+        padding: 0 25px;
+    }
+}
