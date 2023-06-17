@@ -33,3 +33,40 @@
 .hero3_info div:nth-child(3){
     margin-top: 20px;
 }
+
+@media (max-width:920px){
+    .hero3{
+        padding: 100px 5px 50px 5px;
+    }
+    .hero3_info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero3_info div{
+        width: auto;
+        text-align: center;
+    }
+
+    .hero3_info div p{
+        width: auto;
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:468px){
+    .hero3{
+        height: 180vh;
+    }
+    .hero3_info{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+    .hero3 h3{
+        font-size: 25px;
+    }
+    .hero3 h1{
+        font-size: 50px;
+    }
+}
