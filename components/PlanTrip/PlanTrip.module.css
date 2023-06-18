@@ -1,0 +1,60 @@
+.hero2{
+    margin: 20px 80px;
+    padding: 40px 40px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    min-height: 300px;
+}
+
+.hero2_main form input, .hero2_main form select{
+    padding: 0 20px;
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    color: #a1a1a1;
+}
+
+.hero2_icon{
+    color: #FF4D30;
+}
+
+.form_div1, .form_div2{
+    margin: 20px 0;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.form_div1 label span, .form_div2 label span{
+    color: #FF4D30;
+}
+
+.car_type, .pick_up, .drop_off{
+    display: flex;
+}
+
+.form_div2 label, .form_div1 label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form_div2 button{
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    height: 45px;
+    width: 100%;
+    margin-top: 35px;
+    background-color: #FF4D30;
+    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.form_div2 button:hover {
+    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
+    background-color: #fa4226;
+}
