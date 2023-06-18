@@ -5,6 +5,7 @@ import Image from 'next/image';
 import choose1 from '../../../public/chooseuscar.png';
 import choose2 from '../../../public/chooseusprice.png';
 import choose3 from '../../../public/chooseuscharges.png';
+import choosbg from '../../../public/chooseusbg.png';
 import { FaChevronCircleRight } from "react-icons/fa";
 
 const Choose = () => {
@@ -14,6 +15,7 @@ const Choose = () => {
         <Image src={Cars} alt="cars"/>
     </div>
         <div className={styles.choose_main}>
+        <Image src={choosbg} alt="bg" style={{position:"absolute", zIndex:"-1"}}/>
             <div className={styles.choose_text}>
                 <h3>Why Choose Us</h3>
                 <h1>Best valued deals you will ever find</h1>
