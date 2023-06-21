@@ -1,8 +1,14 @@
 import React from 'react'
+import Common from '../../../components/CommonBg/Common';
 
 const page = () => {
+  const data = {
+    name:"Vehicle Models",
+  };
   return (
-    <div>Vehicle</div>
+    <div>
+      <Common myData={data}/>
+    </div>
   )
 }
 

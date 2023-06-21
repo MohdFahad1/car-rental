@@ -1,0 +1,15 @@
+.commonBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: #282828;
+    color: #fff;
+}
+
+
+.commonBanner span{
+    color: #FF4D30;
+    margin-left: 40px;
+}

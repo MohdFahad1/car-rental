@@ -1,0 +1,30 @@
+.common{
+}
+
+.overlay{
+    /* background-color:hsla(0,0%,100%,.92); */
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.overlay img{
+    opacity: 0.1;
+}
+
+.common h1, .common h4{
+    position: relative;
+    z-index: 3;
+    padding: 0 80px;
+}
+
+.common h1{
+    margin:60px 0 10px 0;
+    font-size: 45px;
+}
+
+.common h4{
+    font-size: 20px;
+    font-weight: 600;
+}

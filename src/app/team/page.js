@@ -1,8 +1,14 @@
 import React from 'react'
+import Common from '../../../components/CommonBg/Common';
 
 const page = () => {
+  const data = {
+    name:"Our Team",
+  };
   return (
-    <div>team</div>
+    <div>
+      <Common myData={data}/>
+    </div>
   )
 }
 
