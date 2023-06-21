@@ -5,6 +5,8 @@ import Hero3 from "../../components/Home/Hero3/Hero3";
 import Hero4 from "../../components/Home/Hero4/Hero4";
 import Choose from '../../components/Home/ChooseUs/ChooseUs';
 import Testimonial from '../../components/Testimonials/Testimonial';
+import Faq from '../../components/Faq/Faq';
+
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
       </div>
       <Choose />
       <Testimonial />
+      <Faq />
     </>
   )
 }

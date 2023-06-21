@@ -1,7 +1,9 @@
+'use client'
 import React from 'react';
 import styles from './Navbar.module.css';
 import Image from 'next/image';
-import Logo from '../../public/logo.png'
+import Logo from '../../public/logo.png';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -12,24 +14,36 @@ const Navbar = () => {
             </div>
             <div className={styles.links}>
                 <ul>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Vehicle Models
-                    </li>
-                    <li>
-                        Testimonials
-                    </li>
-                    <li>
-                        Our Team
-                    </li>
-                    <li>
-                        Contact
-                    </li>
+                    <Link href="/">
+                        <li>
+                            Home
+                        </li>
+                    </Link>
+                    <Link href="/about">
+                        <li>
+                            About
+                        </li>
+                    </Link>
+                    <Link href="/vehicle">
+                        <li>
+                            Vehicle Models
+                        </li>
+                    </Link>
+                    <Link href="/testimonials">
+                        <li>
+                            Testimonials
+                        </li>
+                    </Link>
+                    <Link href="/team">
+                        <li>
+                            Our Team
+                        </li>
+                    </Link>
+                    <Link href="/contact">
+                        <li>
+                            Contact
+                        </li>
+                    </Link>
                 </ul>
             </div>
             <div className={styles.btn}>
