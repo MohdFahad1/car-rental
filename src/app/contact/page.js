@@ -28,7 +28,7 @@ const page = () => {
           <label>Email <span>*</span></label>
           <input type="email" placeholder="youremail@example.com"/>
           <label>Tell us about it <span>*</span></label>
-          <input type="text" placeholder="Write Here.."/>
+          <textarea type="text" placeholder="Write Here.." rows={10}></textarea>
           <button><FaEnvelopeOpenText />Send Message</button>
           </form>
         </div>

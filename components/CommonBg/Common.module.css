@@ -1,8 +1,5 @@
-.common{
-}
 
 .overlay{
-    /* background-color:hsla(0,0%,100%,.92); */
     width: 100%;
     position: absolute;
     right: 0;
@@ -11,6 +8,7 @@
 
 .overlay img{
     opacity: 0.1;
+    width: 100%;
 }
 
 .common h1, .common h4{
