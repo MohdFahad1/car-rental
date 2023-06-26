@@ -1,3 +1,4 @@
+
 import styles from './page.module.css';
 import Hero from "../../components/Home/Hero/Hero";
 import PlanTrip from "../../components/PlanTrip/PlanTrip";

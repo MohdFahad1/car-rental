@@ -50,11 +50,14 @@
 }
 
 .footer_second{
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
     min-height:200px;
 }
 
 .footer_second p{
+    width: 120px;
     margin-top: 25px;
     cursor: pointer;
 }
@@ -180,6 +183,9 @@
     }
 
     .footer_second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-left: 0;
     }
 
