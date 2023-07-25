@@ -1,0 +1,31 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 250px 0 80px 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:920px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        margin: 250px 0 80px 0;
+    }
+}
+
+@media (max-width:468px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin: 200px 0 50px 0;
+    }
+}
