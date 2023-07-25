@@ -82,3 +82,53 @@
     right: 0;
     z-index: -1;
 }
+
+@media (max-width:920px){
+    .car_img, .bg_img{
+        display: none;
+    }
+
+    .hero_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:468px){
+    .car_img, .bg_img{
+        display: none;
+    }
+
+    .hero_text{
+        margin-left: -80px;
+    }
+
+    .hero_text h1{
+        width: 300px;
+    }
+
+    .hero_text h3{
+        font-size: 25px;
+    }
+
+    .hero_btn{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .book_btn, .learn_btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        border: none;
+        height: 60px;
+        width: 250px;
+        margin: 20px 0 0 0;
+    }
+}
