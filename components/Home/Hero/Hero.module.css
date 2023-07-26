@@ -84,6 +84,9 @@
 }
 
 @media (max-width:920px){
+    .hero{
+        background-color: #F8F8F8;
+    }
     .car_img, .bg_img{
         display: none;
     }

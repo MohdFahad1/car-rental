@@ -71,3 +71,9 @@
     box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
     background-color: #fa4226;
 }
+
+@media (max-width:920px){
+    .navbar{
+        background-color: #F8F8F8;
+    }
+}
