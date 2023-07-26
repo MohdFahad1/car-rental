@@ -7,6 +7,7 @@ import Choose from '../../components/Home/ChooseUs/ChooseUs';
 import Testimonial from '../../components/Testimonials/Testimonial';
 import Faq from '../../components/Faq/Faq';
 import PickCar from '../../components/Home/PickCar/PickCar';
+import Donwload from '../../components/Home/Donwload/Donwload';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Choose />
       <Testimonial />
       <Faq />
+      <Donwload />
     </>
   )
 }
