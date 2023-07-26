@@ -12,8 +12,7 @@ function CarBox({ data, carID }) {
               style={{ display:"block" }}
               src={car.img}
               alt="car_img"
-              height={350}
-              width={530}
+              className={styles.car_images}
             />
           </div>
           {/* description */}
