@@ -4,57 +4,119 @@
     box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
     background-color: #fff;
     min-height: 300px;
+    background-image: url("../../public/form-bg.png");
 }
 
-.hero2_main form input, .hero2_main form select{
-    padding: 0 20px;
+.form{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 2rem;
+}
+
+.select_options{
+    display: flex;
+    flex-direction: column;
+}
+
+.select_options span{
+    color: #FF4D30;
+}
+
+.select_options select{
     height: 45px;
-    width: 100%;
-    font-size: 20px;
-    color: #a1a1a1;
-}
-
-.hero2_icon{
-    color: #FF4D30;
-}
-
-.form_div1, .form_div2{
-    margin: 20px 0;
-    padding: 25px 0;
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-}
-
-.form_div1 label span, .form_div2 label span{
-    color: #FF4D30;
-}
-
-.car_type, .pick_up, .drop_off{
-    display: flex;
-}
-
-.form_div2 label, .form_div1 label{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.form_div2 button{
-    border: none;
-    color: #fff;
-    font-weight: bold;
+    width: 350px;
+    color: gray;
+    padding: 0 10px;
     font-size: 15px;
+    border: 1px solid #CCD7E6;
+    border-radius: 2px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.date_span label span{
+    color: #FF4D30;
+}
+
+.date_span input{
     height: 45px;
-    width: 100%;
-    margin-top: 35px;
-    background-color: #FF4D30;
+    width: 350px;
+    color: gray;
+    padding: 0 10px;
+    font-size: 15px;
+    border: 1px solid #CCD7E6;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.button{
+    border: none;
+    font-weight: 550;
+    font-size: 17px;
+    background: #FF4D30;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    width: 350px;
+    margin-top: 29px;
     box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
     transition: all 0.3s;
-    cursor: pointer;
 }
 
-.form_div2 button:hover {
+.button:hover {
     box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
     background-color: #fa4226;
+}
+
+@media (max-width:920px){
+    .hero2{
+        margin: 20px 30px;
+        padding: 40px 40px;
+    }
+
+    .form{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .select_options select{
+        width: 300px;
+    }
+
+    .date_span input{
+        width: 300px;
+    }
+
+    .button{
+        width: 300px;
+    }
+}
+
+@media (max-width:468px){
+    
+    .hero2{
+        margin: 20px 20px;
+        padding: 30px 25px;
+    }
+
+
+    .form{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .select_options select{
+        width: 280px;
+    }
+
+    .date_span input{
+        width: 280px;
+    }
+
+    .button{
+        width: 280px;
+        margin-top: 0;
+    }
 }
