@@ -3,3 +3,150 @@
   -webkit-appearance: none;
   margin: 0;
 }
+
+.modal{
+  height: auto;
+  width:700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.top_heading{
+  background: #FF4D30;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 25px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.upon_completion{
+  background: #fee8e4;
+  padding: 10px 40px;
+  font-size: 19px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upon_completion .div1{
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF4D30;
+  margin-bottom: 15px;
+} 
+
+.upon_completion .div2{
+  color: rgb(107, 105, 105);
+}
+
+.booking_desc{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 25px;
+}
+
+.personal{
+  padding: 40px 25px;
+}
+
+.personal input{
+  background: rgb(217, 215, 215);
+  border: none;
+  padding: 0 10px;
+  height: 50px;
+  width: 300px;
+  outline: none;
+}
+
+.personal h2{
+  color: #FF4D30;
+}
+
+
+.outer_div{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.inner_div{
+  display: flex;
+  flex-direction: column;
+}
+
+.inner_div label{
+  font-size: 20px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 10px;
+}
+
+.inner_div span{
+  color: #FF4D30;
+}
+
+.inner_div p{
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.email_address{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.inner_div .my_email{
+  width: 100%;
+}
+
+.inner_div .address{
+width: 100%;
+}
+
+
+.btn{
+  background: rgb(217, 215, 215);
+  height: 200px;
+  width: 100%;
+}
+
+.checkbox_div{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.checkbox_div .checkbox{
+  height: 15px;
+  width: 15px;
+}
+
+.btn div{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.btn button{
+  border: 1px solid yellow;
+  background: #fb654e;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-size: 25px;
+  transition: .4s;
+}
+
+.btn button:hover{
+  background: #FF4D30;
+}
