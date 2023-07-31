@@ -40,7 +40,6 @@ const Faq = () => {
         <p>Frequently Asked Questions About the Car Rental Booking Process on Our Website :</p>
         <p>Answers to Common Concerns and Inquiries.</p>
       </div>
-      <Image src={bg} alt="car" />
       <div className={styles.faq_item}>
         {faqData.map((data, index) => {
           return <FaqItem key={index} open={index === open} ques={data.ques} ans={data.ans} toggle={()=>toggle(index)}/>

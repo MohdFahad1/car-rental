@@ -21,7 +21,7 @@ const page = () => {
       </div>
       <div  className={styles.about}>
         <div>
-          <Image src={people} alt="people"/>
+          <Image src={people} alt="people" className={styles.people_img}/>
         </div>
 
         <div className={styles.about_text}>

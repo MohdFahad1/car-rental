@@ -32,12 +32,14 @@
     margin-left: -35px;
     height: 70px;
     width: 280px;
+    cursor: pointer;
 }
 
 
 .download_images_appstore{
     height: 70px;
     width: 230px;
+    cursor: pointer;
 }
 
 

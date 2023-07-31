@@ -3,6 +3,7 @@ import Common from '../../../components/CommonBg/Common';
 import Image from 'next/image';
 import {data as Members} from './data';
 import styles from './page.module.css';
+import CommonBanner from '../../../components/CommonBanner/CommonBanner';
 
 const page = () => {
   const data = {
@@ -27,6 +28,7 @@ const page = () => {
           })}
         </div>
       </div>
+      <CommonBanner />
     </>
   )
 }

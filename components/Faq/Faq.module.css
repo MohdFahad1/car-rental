@@ -1,6 +1,9 @@
 .faq{
     position: relative;
     padding: 30px 0;
+    background-image: url("../../public/faqbg.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
 }
 
 .faq_text{
@@ -21,11 +24,6 @@
     font-size: 20px;
 }
 
-.faq img{
-    /* position: absolute;
-    z-index: -1; */
-    display: none;
-}
 
 .faq_item{
     margin-top: 35px;
@@ -57,8 +55,8 @@
 
 .desc{
     color: #706F7B;
-    font-size: 23px;
-    padding: 5px 0 20px 0;
+    font-size: 20px;
+    padding: 5px 15px 20px 15px;
 }
 
 

@@ -36,6 +36,7 @@
 
 @media (max-width:920px){
     .hero3{
+        height: auto;
         padding: 100px 5px 50px 5px;
     }
     .hero3_info{
@@ -56,7 +57,7 @@
 
 @media (max-width:468px){
     .hero3{
-        height: 180vh;
+        height: auto;
     }
     .hero3_info{
         display: grid;

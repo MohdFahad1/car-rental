@@ -3,12 +3,14 @@ import styles from './page.module.css';
 import Common from '../../../components/CommonBg/Common';
 import { FaPhoneAlt, FaEnvelope, FaEnvelopeOpenText } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+import CommonBanner from '../../../components/CommonBanner/CommonBanner';
 
 const page = () => {
   const data = {
     name: "Contact",
   };
   return (
+    <>
     <div>
       <Common myData={data} />
       <div className={styles.contact}>
@@ -34,6 +36,8 @@ const page = () => {
         </div>
       </div>
     </div>
+    <CommonBanner />
+    </>
   )
 }
 

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
 import { FaCarSide, FaStar } from 'react-icons/fa';
+import CommonBanner from '../../../components/CommonBanner/CommonBanner';
 
 const page = () => {
   const data = {
@@ -66,6 +67,7 @@ const page = () => {
       })}
     </div>
     </div>
+    <CommonBanner />
     </>
   )
 }

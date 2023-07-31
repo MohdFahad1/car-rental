@@ -133,7 +133,6 @@
 @media (max-width:920px){
     .pick_section{
         margin-bottom: 100px;
-        margin-top: -200px;
     }
 
     .pick_container{
@@ -168,9 +167,10 @@
 
 @media (max-width:468px){
     .pick_section{
-        height: 190vh;
+        height: auto;
         padding: 0;
         margin-top: 100px;
+        margin-bottom: 350px;
     }
     .text p{
         width: 350px;

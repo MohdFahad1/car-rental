@@ -26,3 +26,9 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+@media (max-width:468px){
+    .common h1, .common h4{
+        padding: 0 20px;
+    }
+}
